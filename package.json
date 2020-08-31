@@ -1,0 +1,33 @@
+{
+  "name": "mc-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to administrate minecraft servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yan-wl/mc-telegram-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yan-wl/mc-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/yan-wl/mc-telegram-bot#readme",
+  "dependencies": {
+    "aws-sdk": "^2.742.0",
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.50.0"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.50.2",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "eslint": "^7.7.0",
+    "prettier": "^2.1.1",
+    "typescript": "^4.0.2"
+  }
+}
